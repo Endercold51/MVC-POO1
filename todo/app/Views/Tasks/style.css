@@ -1,0 +1,44 @@
+body {
+    background-color: #3535cc;
+    color: #991e1e;
+}
+
+h1 {
+    text-align: center;
+    color: #555;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #882424;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4b41a;
+    color: #5c1414;
+}
+
+tr:nth-child(even) {
+    background-color: #eb0e0e;
+}
+
+a, button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+a:hover, button:hover {
+    background-color: #218838;
+}
